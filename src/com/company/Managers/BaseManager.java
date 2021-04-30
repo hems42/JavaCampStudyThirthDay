@@ -10,8 +10,9 @@ public abstract class BaseManager {
 
 
 
-     // singular methods
-   public void add(Person person, @Nullable BaseLogger logger)
+
+    // singular methods
+   public void  add(Person person, @Nullable BaseLogger logger)
     {
         System.out.println(person.toString() + " Başarıyla eklendi");
        insideLog(logger);
