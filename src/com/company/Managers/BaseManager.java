@@ -1,5 +1,6 @@
 package com.company.Managers;
 
+
 import com.company.Logs.BaseLogger;
 import com.company.People.Person;
 import com.sun.istack.internal.Nullable;
@@ -10,9 +11,8 @@ public abstract class BaseManager {
 
 
 
-
     // singular methods
-   public void  add(Person person, @Nullable BaseLogger logger)
+   public  void  add(Person person, @Nullable BaseLogger logger)
     {
         System.out.println(person.toString() + " Başarıyla eklendi");
        insideLog(logger);

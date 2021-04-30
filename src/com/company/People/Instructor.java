@@ -1,6 +1,6 @@
 package com.company.People;
 
-public class Instructer extends Person{
+public class Instructor extends Person{
     private static final String   DESCREPTION="INSTRUCTOR";
 
 
